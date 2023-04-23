@@ -10,16 +10,14 @@ export default function Home() {
       <div className='grid place-items-center h-4/5'>
 
         <div className='flex flex-col items-center'>
-
           {/* image */}
           <Image
-            src="https://i.imgur.com/HCbY8O2.jpg"
+            src="https://github.com/alanfvn.png"
             alt="profile"
             width={200}
             height={200}
             className='rounded-md'
           />
-
           <div className='mt-3 mb-10'>
             <h1 className="text-3xl font-bold text-center">
               @alanfvn
@@ -65,7 +63,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   )
